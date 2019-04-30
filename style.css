@@ -1,0 +1,53 @@
+nav #nav-list {
+	list-style-type: none;
+}
+
+
+nav ul li {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+li {
+	text-align: center;
+	transition: background-color 0.3s ease;
+}
+
+li a {
+	 display: block;
+  	 color: #000;
+ 	 padding: 8px 16px;
+  	 text-decoration: none;
+
+}
+
+li a:hover {
+	background-color: #80bfff;
+	font-weight: bold;
+}
+
+body {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica, Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:700px) {
+	nav ul li {
+		display: inline-block;
+		text-align: left;
+	}
+}
